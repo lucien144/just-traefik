@@ -23,6 +23,7 @@ sudo passwd traefik
 sudo usermod -s /bin/bash traefik
 sudo chown -R traefik:traefik /home/traefik
 sudo chmod -R 0775 /home/traefik
+sudo usermod -a -G docker traefik
 ```
 
 ### Installation
