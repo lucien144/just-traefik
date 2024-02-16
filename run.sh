@@ -20,4 +20,4 @@ docker run -d \
   --restart=always \
   --network web \
   --name traefik \
-  traefik:v2.10
+  traefik:v2.11
